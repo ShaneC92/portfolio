@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Shane Cox</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand">Shane Cox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutMe">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projectsHeader">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactMe">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+
+    <div class="card" style="width: 20rem;">
+        <img src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1511&q=80"
+            class="card-img-top" alt="Shane Cox">
+        <div class="card-body">
+            <p class="card-text">
+                My name is Shane Cox, it is a pleasure to meet you.
+            </p>
+        </div>
+    </div>
+
+    <!-- About me -->
+
+    <div class="jumbotron" id="aboutMe">
+        <h1 class="display-4">Hello, welcome to my Portfolio!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    </div>
+
+    <!-- My projects -->
+
+    <div class="container" id="projectsHeader">
+        <h2 class="projectsHeader">
+            <ins>Check out my Projects</ins>
+        </h2>
+        <ul class="list-unstyled">
+            <li class="media">
+              <img src="Pictures/EFAStaticWebpage.png" height="200" width="200" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">EFA Static Webpage</h5>
+                This was a static webpage replica project I did while going through the Eleven Fifty Academy Web Developer course for the Gold Badge. It was extremely fun to build a replica, as close as I could at the time.</br>
+                <a class="projectLinks" href="https://shanec92.github.io/staticWebpage/" target="blank">Check it out here.</a>
+              </div>
+            </li>
+            <li class="media">
+              <img src="Pictures/CSSCreature.png" height="200" width="200" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">CSS Creature</h5>
+                This was my first real test of CSS after entering the Eleven Fifty Academy course. Figuring out how to angle and set properties was a fun and unique challenge.</br>
+                <a class="projectLinks" href="https://codepen.io/Shanec92/pen/vYNZLxW" target="blank">Check it out here.</a>
+              </div>
+            </li>
+            <li class="media">
+              <img src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1511&q=80" height="100" width="100" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">API Challenge</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</br>
+                <a class="projectLinks" href="" target="blank">Check it out here.</a>
+              </div>
+            </li>
+          </ul>
+    </div>
+
+    <!-- Contact Form -->
+
+<!-- modify this form HTML and place wherever you want your form -->
+<div class="contactMe" id="contactMe">
+    <form action="https://formspree.io/myynzblo" method="POST">
+        <h3>Contact Me!</h3>
+    <label id="yourName">
+      Your Name:
+      <input type="text" name="name">
+    </label>
+    <label id="yourEmail">
+      Your Email:
+      <input type="email" name="_replyto">
+    </label></br>
+    <label id="message">
+      Message:</br>
+      <textarea name="message"></textarea>
+    </label></br>
+    <input type="submit" value="Send">
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

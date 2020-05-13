@@ -1,0 +1,136 @@
+body {
+  background-color: #bababa;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+
+}
+
+.navbar-brand {
+  font-size: 24pt !important;
+  font-family: Apple Chancery, Cursive !important;
+}
+
+.nav-item {
+  padding: 5px !important;
+}
+.nav-link {
+  color: white !important;
+  font-size: 16pt !important;
+  font-family: Apple Chancery, Cursive !important;
+}
+
+.nav-link:hover {
+  background-color: grey !important;
+  color: black !important;
+}
+
+
+.card {
+  border: 1px solid blue;
+  position: relative !important;
+  float: right !important;
+  margin-right: 30px !important;
+  border-style: inset;
+  border-width: 3px;
+  border-color: gray;
+}
+
+.card-body {
+  border-style: inset;
+  border-width: 3px;
+  border-color: gray;
+  background-color: black;
+}
+
+.card-text {
+  font-size: 20px;
+  color: white;
+}
+
+.jumbotron {
+  border-radius: 20px;
+  border-style: inset;
+  border-width: 3px;
+  border-color: gray;
+  position: relative !important;
+  background-color: black;
+  width: 60% !important;
+  margin-top: 200px !important;
+  margin-left: 50px !important;
+  color: white;
+}
+
+.container {
+  border-style: inset;
+  border-width: 3px;
+  border-color: gray;
+  background-color: black;
+  margin-top: 350px;
+  text-align: center;
+}
+
+.media {
+  border: 1px solid white;
+  padding: 10px !important;
+  text-align: center;
+}
+
+h5 {
+  color: white !important;
+}
+
+.media-body {
+  color: white !important;
+}
+
+.projectLinks {
+  color: white;
+  text-decoration: underline;
+}
+
+.projectsHeader {
+  color: white;
+  font-family: Apple Chancery, Cursive;
+}
+
+.contactMe {
+  padding: 5px;
+  margin: auto;
+  margin-top: 15px;
+  width: 50%;
+  border-style: inset;
+  border-width: 3px;
+  border-color: gray;
+  background-color: black;
+}
+
+h3{
+  color: white;
+  text-align: center;
+}
+
+
+#yourName {
+  padding: 5px;
+  margin: auto;
+  color: white;
+}
+
+#yourEmail {
+  padding: 5px;
+  margin: auto;
+  color: white;
+}
+
+#message {
+  padding: 5px;
+  width: 100%;
+  color: white;
+}
+
+textarea {
+  padding: 5px;
+ width: 535px;
+ height: 100px;
+}
+
+
