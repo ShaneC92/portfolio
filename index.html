@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="styles.css">
 
-    <title>Shane Cox</title>
+    <title>Shane Cox</title> 
 </head>
 
 <body>
@@ -54,11 +54,14 @@
     <!-- About me -->
 
     <div class="jumbotron" id="aboutMe">
-        <h1 class="display-4">Hello, welcome to my Portfolio!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
+        <h1 class="display-4">Welcome to my portfolio!</h1><br>
+        <p class="lead">I was born in Kokomo, Indiana. I have lived in Indiana my whole life. I have worked in Warehouses and Pest Control. However, at 27, I decided to take a huge leap into a new career field. My brother told me about the Eleven Fifty Academy, so I decided to check it out!<br><br>
+            I am now working on becoming a Junior Web Developer. I am learning HTML, CSS, and JavaScript.
+            I am looking forward to a long career of growth in this industry.
+        </p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p>Check out my Resume <br>
+            <a id="resume" href="Resume/Shane-Cox.pdf" target="blank">Here</a></p>
     </div>
 
     <!-- My projects -->
@@ -85,11 +88,11 @@
               </div>
             </li>
             <li class="media">
-              <img src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1511&q=80" height="100" width="100" class="mr-3" alt="...">
+              <img src="Pictures/APIChallenge.png" height="200" width="200" class="mr-3" alt="...">
               <div class="media-body">
                 <h5 class="mt-0 mb-1">API Challenge</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</br>
-                <a class="projectLinks" href="" target="blank">Check it out here.</a>
+                This was my first API Challenge during the Eleven Fifty Academy course. This helped me learn a lot about different ways to implement JavaScript.</br>
+                <a class="projectLinks" href="https://efa-apichallenge-b7865.firebaseapp.com/" target="blank">Check it out here.</a>
               </div>
             </li>
           </ul>
@@ -101,26 +104,35 @@
 <div class="contactMe" id="contactMe">
     <form action="https://formspree.io/myynzblo" method="POST">
         <h3>Contact Me!</h3>
-    <label id="yourName">
-      Your Name:
-      <input type="text" name="name">
+    <div id="labelCenter">
+        <label id="yourName">
+      Your Name: </br>
+      <input class="inputs" type="text" name="name">
     </label>
     <label id="yourEmail">
-      Your Email:
-      <input type="email" name="_replyto">
-    </label></br>
+      Your Email: </br>
+      <input class="inputs" type="email" name="_replyto">
+    </label>
+    </div></br>
     <label id="message">
       Message:</br>
       <textarea name="message"></textarea>
     </label></br>
-    <input type="submit" value="Send">
+    <input id="submitBtn" type="submit" value="Send">
   </form>
 </div>
 
 
 
+<!-- Footer -->
 
-
+<footer class="footer">
+    <div id="contactLinks">
+    <a href="https://github.com/ShaneC92" target="blank">
+    Github</a>
+    <a href="" target="blank">LinkedIn</a>
+    </div>
+</footer>
 
 
 
