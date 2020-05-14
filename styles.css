@@ -1,7 +1,7 @@
 body {
-  background-color: #bababa;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
-
+  background-color: #e3e3e3;
+  background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .navbar-brand {
@@ -25,7 +25,6 @@ body {
 
 
 .card {
-  border: 1px solid blue;
   position: relative !important;
   float: right !important;
   margin-right: 5% !important;
@@ -38,7 +37,7 @@ body {
   border-style: inset;
   border-width: 3px;
   border-color: gray;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(32, 32, 32);
 }
 
 .card-text {
@@ -53,7 +52,7 @@ body {
   border-width: 3px;
   border-color: gray;
   position: relative !important;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(32, 32, 32);
   width: 60% !important;
   margin-top: 200px !important;
   margin-left: 50px !important;
@@ -71,7 +70,7 @@ body {
   border-style: inset;
   border-width: 3px;
   border-color: gray;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(32, 32, 32);
   margin-top: 100px;
   text-align: center;
 }
@@ -108,7 +107,7 @@ h5 {
   border-style: inset;
   border-width: 3px;
   border-color: gray;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(32, 32, 32);
 }
 
 h3{
